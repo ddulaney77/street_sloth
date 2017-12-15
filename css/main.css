@@ -18,18 +18,20 @@ body {
 .logo {
   display: flex;
   flex:1;
-  height: 21em;
+  flex-basis: 60%;
+  height: 24em;
   margin-top:.5em;
   background-color: black;
+  box-shadow: 8px 8px 10px grey;
+  border-radius: 4px;
 
 }
 img {
   max-width: 100%;
-  width:250px;
-  height:320px;
+  width:200px;
+  height:360px;
+  flex-basis: 60%;
   border-radius: 50%;
-  align-items: : center;
-  flex-basis: 80%;
   margin: auto;
 }
 
